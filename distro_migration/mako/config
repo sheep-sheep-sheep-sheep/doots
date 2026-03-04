@@ -1,0 +1,28 @@
+# --- Global Settings ---
+font=JetBrains Mono 14
+width=350
+height=150
+margin=20
+padding=15
+border-size=2
+border-radius=0
+icons=1
+max-icon-size=48
+default-timeout=5000
+ignore-timeout=0
+
+# --- Colors (Derived from your Sway & Waybar) ---
+# Background: Deep dark maroon (#2d0000)
+background-color=#2d0000ff
+# Text: Light grey (#e0e0e0)
+text-color=#e0e0e0ff
+# Border: Lighter maroon focus color (#5a0000)
+border-color=#5a0000ff
+# Progress Bar: Matching the lighter maroon
+progress-color=over #5a0000ff
+
+# --- Urgency High (Critical Alerts) ---
+[urgency=high]
+# Border: Sway urgent red (#ff4d4d)
+border-color=#ff4d4dff
+default-timeout=0

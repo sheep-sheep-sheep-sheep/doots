@@ -1,0 +1,39 @@
+[colors.primary]
+background = "#1c262c"
+foreground = "#d6c6c6"
+
+[colors.normal]
+black   = "#1c262c"
+red     = "#f6a6aa"
+green   = "#a3be8c"
+yellow  = "#ffb347"
+blue    = "#81a1c1"
+magenta = "#f2d7d8"
+cyan    = "#8ec07c"
+white   = "#d6c6c6"
+
+[colors.bright]
+black   = "#4b525d"
+red     = "#f6a6aa"
+green   = "#b1d196"
+yellow  = "#fabd2f"
+blue    = "#88c0d0"
+magenta = "#f8c8cc"
+cyan    = "#a89984"
+white   = "#ffffff"
+
+[colors.cursor]
+text = "#1c262c"
+cursor = "#d6c6c6"
+
+[window]
+padding = { x = 10, y = 10 }
+opacity = 0.82
+blur = true
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "Courier Prime"
+style = "Regular"

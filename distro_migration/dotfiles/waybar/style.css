@@ -1,0 +1,46 @@
+* {
+    /* Replace with your preferred monospaced font */
+    font-family: "JetBrains Mono", "Fira Code", monospace;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: #1a0a16; /* Deep dark purple/black */
+    color: #ffffff;
+    border-bottom: 4px solid #c02652; /* The thick magenta line at the bottom */
+}
+
+/* Workspace Styling */
+#workspaces button {
+    padding: 0 15px;
+    color: #4d3d4b; /* Dimmed inactive color */
+    background: transparent;
+}
+
+#workspaces button.active {
+    color: #e6195e; /* Vibrant magenta for the active workspace */
+}
+
+#workspaces button.urgent {
+    color: #ffffff;
+    background-color: #e6195e;
+}
+
+/* Right Side Modules */
+#pulseaudio, #cpu, #memory, #clock {
+    padding: 0 5px;
+}
+
+/* The "BTRBFSTR" (Wifi) styling */
+#network {
+    color: #e6195e; /* Matching the wifi name to the accent color */
+    padding: 0 5px;
+}
+
+#clock {
+    padding-right: 15px;
+}

@@ -1,0 +1,36 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "modules-left": ["sway/workspaces"], // Use "sway/workspaces" if on Sway
+    "modules-center": [],
+    "modules-right": ["pulseaudio", "cpu", "memory", "network", "clock"],
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "format": "{name}"
+    },
+
+    "pulseaudio": {
+        "format": "VOL {volume}% |"
+    },
+
+    "cpu": {
+        "format": "CPU {usage}% |"
+    },
+
+    "memory": {
+        "format": "RAM {percentage}% |"
+    },
+
+    "network": {
+        "format-wifi": "{essid} |",
+        "format-ethernet": "ETH |",
+        "format-disconnected": "OFF |"
+    },
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    }
+}
